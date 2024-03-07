@@ -1,0 +1,15 @@
+https://huggingface.co/CohereForAI/aya-101 
+https://huggingface.co/BatsResearch/bonito-v1 
+https://huggingface.co/google/flan-t5-large 
+https://huggingface.co/google/flan-t5-base 
+https://huggingface.co/kaist-ai/prometheus-13b-v1.0 
+https://huggingface.co/IDEA-CCNL/Randeng-T5-784M-MultiTask-Chinese 
+https://huggingface.co/google/flan-t5-xl 
+https://huggingface.co/google/flan-t5-xxl 
+https://huggingface.co/google/flan-ul2 
+https://huggingface.co/merve/chatgpt-prompt-generator-v12 
+https://huggingface.co/facebook/musicgen-melody 
+https://huggingface.co/bond005/ruT5-ASR-large 
+https://huggingface.co/TIGER-Lab/TIGERScore-13B 
+https://huggingface.co/eren23/ogno-monarch-jaskier-merge-7b-OH-PREF-DPO 
+https://huggingface.co/Babelscape/rebel-large 

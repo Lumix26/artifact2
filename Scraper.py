@@ -14,11 +14,42 @@ class Scraper:
     driver.
     Author: Marco"""
 
+    #Analizzare questo snippet
+    #target.find_all(lambda tag:tag.name=="li" and re.search(regex,tag.text))
 
-    validated = {}
+    lower_bound = 10
+
+
+    regexs = [
+        re.compile(r'[F|f]inetuning'),
+        re.compile(r'[I|i]talian'),
+        re.compile(r'[E|e]nglish'),
+        re.compile(r'[L|l]ightweight]'),
+        re.compile(r'[C|c](PU|pu)'),
+        re.compile(r'[G|g](PU|pu)'),
+        re.compile(r'[G|g](pt|PT)'),
+        re.compile(r'(\d)*[BERT](\d)*'),
+        re.compile(r'T5')
+    ]
+
+
+    to_validate = {}
 
     def __init__(self, url_model:str) -> None:
+        #rappresentazione Sum(CiXi)
+        self.kws_wg = {
+        re.compile(r'[F|f]inetuning') : [False, 4],
+        re.compile(r'[I|i]talian') : [False,3],
+        re.compile(r'[E|e]nglish') : [False,3],
+        re.compile(r'[L|l]ightweight]') : [False, 1],
+        re.compile(r'[C|c](PU|pu)') : [False,2],
+        re.compile(r'[G|g](pt|PT)') : [False,1],
+        re.compile(r'(\d)*[BERT](\d)*') : [False,2],
+        re.compile(r'T5') : [False,3]
+        }
+
         self.url = url_model
+        self.flag = True
         #self.driver = webdriver.Firefox()
         #self.driver.get(self.url)
         #RICORDA SEMPRE DI PULIRE GLI URL DA SPAZI BIANCHI
@@ -28,14 +59,15 @@ class Scraper:
                 self.soup = BeautifulSoup(response.text,"html.parser")
         except Exception as e:
             #TO DO impostare una flag che blocca lo scrape
-            pass
+            self.flag = False
+        
         #self.soup = BeautifulSoup(self.driver.page_source,"html.parser")
-        self.dizionario = {}
+        #self.dizionario = {}
 
 
 
 
-    def _extract_info_tags(self):
+    #def _extract_info_tags(self):
         """
         Funziona
         """
@@ -55,7 +87,7 @@ class Scraper:
             print(e)
 
 
-    def _populate_dict(self):
+    #def _populate_dict(self):
         """
         Funziona
         """
@@ -73,7 +105,7 @@ class Scraper:
                         self.dizionario[tmp] = self.dizionario[tmp]+1
 
 
-    def _lowerize_strings(self, tokens:list[str]):
+    #def _lowerize_strings(self, tokens:list[str]):
         """
         Funziona
         """
@@ -87,7 +119,7 @@ class Scraper:
     
 
 
-    def scrape(self, keywords:list[str]):
+    #def scrape(self, keywords:list[str]):
         """
         Funziona
         """
@@ -118,9 +150,30 @@ class Scraper:
         #self.driver.quit()
 
 
-    def get_scraped(self):
-        return self.validated 
+    def scrape(self):
+        if(self.flag):
+            result = [ {regex : self.soup.find_all(string=regex)} for regex in self.regexs ]
+            for diz in result:
+                for key in diz:
+                    if len(diz[key] > 0):
+                        self.kws_wg[key][0] = True
+            
+            if self._fun_obiettivo() > self.lower_bound:
+                self.to_validate[self.url] = [key for key in self.kws_wg if self.kws_wg[key][0] == False]
 
+    def _fun_obiettivo(self):
+        sum = 0
+
+        for key in self.kws_wg:
+            if self.kws_wg[key][0] == True:
+                sum = sum + self.kws_wg[key][1]
+        
+        return sum
+
+    def get_scraped(self):
+        return self.to_validate
+
+    
 
 
 

@@ -1,0 +1,24 @@
+Modello ottenuto: https://huggingface.co/CohereForAI/aya-101 
+ 
+ Parametri trovati: use, languages, finetuning, use 
+ Parametri non trovati: cpu, uses, tuning, italian, ita, it, training 
+Modello ottenuto: https://huggingface.co/BatsResearch/bonito-v1 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, it 
+Modello ottenuto: https://huggingface.co/google/flan-t5-large 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, it 
+Modello ottenuto: https://huggingface.co/google/flan-t5-base 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, it 
+Modello ottenuto: https://huggingface.co/google/flan-t5-xl 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, it 
+Modello ottenuto: https://huggingface.co/google/flan-t5-xxl 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, it 

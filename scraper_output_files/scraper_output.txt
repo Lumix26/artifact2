@@ -1,0 +1,502 @@
+Modello ottenuto: https://huggingface.co/CohereForAI/aya-101 
+ 
+ Parametri trovati: use, languages, finetuning, use 
+ Parametri non trovati: cpu, uses, tuning, italian, ita, it, trainingModello ottenuto: https://huggingface.co/BatsResearch/bonito-v1 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/google/flan-t5-large 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/google/flan-t5-base 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/google/flan-t5-xl 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/google/flan-t5-xxl 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/google/flan-t5-small 
+ 
+ Parametri trovati: cpu, use, uses, use, training 
+ Parametri non trovati: languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/T0pp 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/eugenesiow/bart-paraphrase 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/iarfmoose/t5-base-question-generator 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/allenai/tk-instruct-11b-def 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/mt0-small 
+ 
+ Parametri trovati: cpu, use, use, training 
+ Parametri non trovati: uses, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/mt0-large 
+ 
+ Parametri trovati: cpu, use, use, training 
+ Parametri non trovati: uses, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/stockmark/bart-base-japanese-news 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/starmpcc/Asclepius-Llama2-7B 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/starmpcc/Asclepius-Llama2-13B 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/boun-tabi-LMG/TURNA 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Davlan/mT5_base_yoruba_adr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Davlan/mt5_base_eng_yor_mt 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Davlan/mt5_base_yor_eng_mt 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/KETI-AIR/ke-t5-base-ko 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/KETI-AIR/ke-t5-base 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/LiqiangXiao/ConvSearch_QU 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/LiqiangXiao/summarization 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Marc/pegasus_xsum_gigaword 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Rostlab/prot_t5_xl_bfd 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Rostlab/prot_t5_xl_uniref50 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_cls_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_cs_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_cs_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_cs_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_cs_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_cs_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_cs_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_de_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_de_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_de_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_de_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_de_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_en_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_en_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_en_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_en_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_en_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_en_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_es_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_es_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_es_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_es_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_es_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_es_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_fr_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_fr_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_fr_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_fr_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_fr_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_it_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_it_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_it_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_it_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_it_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_it_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_sv_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_sv_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_sv_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_sv_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_sv_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_multitask_sv_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_summ_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_de_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_en_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_es_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_fr_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_it_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_cs_sv_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_cs_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_en_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_es_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_fr_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_it_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_de_sv_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_cs_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_de_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_es_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_fr_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_it_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_en_sv_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_es_cs_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_es_de_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_es_en_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_es_fr_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_es_it_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_es_sv_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_cs_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_de_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_en_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_es_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_it_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_fr_sv_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_cs_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_de_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_en_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_es_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_fr_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_sv 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_it_sv_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_cs 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_cs_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_de 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_de_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_en 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_en_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_es 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_es_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_fr 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_fr_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_it 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SEBIS/legal_t5_small_trans_sv_it_small_finetuned 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Salesforce/codet5-base 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/Salesforce/codet5-small 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/SaulLu/cotet5_small_fix 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/T0 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/T0_3B 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/T0_original_task_only 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/T0_single_prompt 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/bigscience/T0p 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/cristian-popa/bart-tl-all 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/cristian-popa/bart-tl-ng 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, itModello ottenuto: https://huggingface.co/hyesunyun/update-summarization-bart-large-longformer 
+ 
+ Parametri trovati: use, uses, use, training 
+ Parametri non trovati: cpu, languages, finetuning, tuning, italian, ita, it
