@@ -2,6 +2,10 @@ import time
 from bs4 import BeautifulSoup
 import re
 import requests
+import os
+import multiprocessing
+from multiprocessing import Lock, Manager, Process
+
 
 
 class Scraper:
@@ -16,83 +20,129 @@ class Scraper:
     #Analizzare questo snippet
     #target.find_all(lambda tag:tag.name=="li" and re.search(regex,tag.text))
 
-    lower_bound = 13
+    lock = Lock()
+
+    manager = Manager()
+
+    shared_dict = manager.dict()
+
+
+
+    lower_bound = 10
 
 
     regexs = [
-        re.compile(r'[F|f]ine-tune[d]*'),
-        re.compile(r'[I|i]talian'),
-        re.compile(r'[E|e]nglish'),
-        re.compile(r'[C|c](PU|pu)'),
-        re.compile(r'[G|g](PU|pu)'),
-        re.compile(r'[G|g](pt|PT)'),
-        re.compile(r'(\d)*[BERT](\d)*'),
-        re.compile(r'T5')
-    ]
+                re.compile(r'[F|f]ine-tune[d]*'),
+                re.compile(r'[I|i]talian'),
+                re.compile(r'[E|e]nglish'),
+                re.compile(r'[C|c](PU|pu)'),
+                re.compile(r'[G|g](PU|pu)'),
+                re.compile(r'[G|g](pt|PT)'),
+                re.compile(r'(\d)*[BERT](\d)*'),
+                re.compile(r'T5'),
+                re.compile(r'[L|l]lama'),
+                re.compile(r'[M|m]istral'),
+                re.compile(r'[G|g]emma')
+            ]
+    
+    
+    
 
     #rappresentazione Sum(CiXi)
     #costo modello ideale z*
-    
 
-    to_validate = {}
 
-    def __init__(self, url_model:str) -> None:
-            self.url = url_model
-            self.flag = True
-            self.kws_wg = {
-                self.regexs[0] : [False, 4],
-                self.regexs[1] : [False,3],
-                self.regexs[2] : [False,3],
-                self.regexs[3] : [False,2],
-                self.regexs[4] : [False,2],
-                self.regexs[5] : [False,3],
-                self.regexs[6] : [False,3],
-                self.regexs[7] : [False,3]
-            }
-
-            #RICORDA SEMPRE DI PULIRE GLI URL DA SPAZI BIANCHI
-            try:
-                response = requests.get(self.url.strip())
-                if response.status_code == 200:
-                    self.soup = BeautifulSoup(response.text,"html.parser")
-                else:
-                    self.flag = False
-            except Exception as e:
-                #TO DO impostare una flag che blocca lo scrape
-                self.flag = False
+    def __init__(self, urls:list[str]) -> None:
+            self.urls = urls
         
 
 
 
 
-    def scrape(self):
-        if(self.flag):
-            # result = [ {regex : self.soup.find_all(string=regex)} for regex in self.regexs ]
-            # for diz in result:
-            #     for key in diz:
-            #         if len(diz[key]) > 0:
-            #             self.kws_wg[key][0] = True
-            for regex in self.regexs:
-                if self.soup.find(string=regex):
-                    self.kws_wg[regex][0] = True
-            
-            if self._fun_obiettivo() >= self.lower_bound:
-                self.to_validate[self.url] = [key for key in self.kws_wg if self.kws_wg[key][0] == False]
+    def _scrape(self,chunks:list[str]):
 
-    def _fun_obiettivo(self):
+        pesi = {
+            self.regexs[0] : [False, 4],
+            self.regexs[1] : [False,3],
+            self.regexs[2] : [False,3],
+            self.regexs[3] : [False,2],
+            self.regexs[4] : [False,2],
+            self.regexs[5] : [False,3],
+            self.regexs[6] : [False,3],
+            self.regexs[7] : [False,3],
+            self.regexs[8] : [False,3],
+            self.regexs[9] : [False,3],
+            self.regexs[10] :[False,3]
+        }
+
+        for url in chunks:
+
+            #print(f"Processo {multiprocessing.current_process().ident} sta analizzando {url}", end='\r')
+            stripped = url.strip()
+            try:
+                response = requests.get(stripped)
+                if response.status_code == 200:
+                    soup = BeautifulSoup(response.text,"html.parser")
+
+                    for regex in self.regexs:
+                        if soup.find(string=regex):
+                            pesi[regex][0] = True
+                    
+                    if self._fun_obiettivo(pesi) >= self.lower_bound:
+                        with self.lock:
+                            self.shared_dict[stripped] = [key for key in pesi if pesi[key][0] == False]
+                        
+                        for key in pesi:
+                            pesi[key][0] = False
+                else:
+                    #TO-DO handle corrupt urls
+                    pass
+            except Exception as e:
+                #TO-DO handle connection error
+                pass
+
+    def _fun_obiettivo(self,pesi):
         sum = 0
 
-        for key in self.kws_wg:
-            if self.kws_wg[key][0] == True:
-                sum = sum + self.kws_wg[key][1]
+        for key in pesi:
+            if pesi[key][0] == True:
+                sum = sum + pesi[key][1]
         
         return sum
 
-    def get_scraped(self):
-        return self.to_validate
-
+    def get_result(self):
+        return self.shared_dict
     
+    def _split_into_chunks(self):
+        n_process = os.cpu_count()
 
+        avg_chunk_size = len(self.urls) // n_process
+        remainder = len(self.urls) % n_process
+
+        chunks = []
+        index = 0
+
+        for i in range(n_process):
+            chunk_size = avg_chunk_size + (1 if i < remainder else 0)
+            chunk = self.urls[index : index + chunk_size]
+            chunks.append(chunk)
+
+            index += chunk_size
+        
+        return chunks
+
+    def run(self):
+
+        chunks = self._split_into_chunks()
+        threads:list[Process] = []
+
+        for chunk in chunks:
+            thread = Process(target=self._scrape, args=(chunk,))
+            thread.start()
+            threads.append(thread)
+
+        for thread in threads:
+            thread.join()
 
 
 
