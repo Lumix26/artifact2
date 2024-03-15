@@ -28,7 +28,6 @@ def main():
 
     output = scraper.get_result()
 
-    print(scraper.get_llm_count())
 
     print(f"Esecuzione completata in {end-start} secondi")
 
